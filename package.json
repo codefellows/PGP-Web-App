@@ -2,9 +2,10 @@
   "name": "code-fellows-pgp",
   "version": "0.0.1",
   "description": "Track student learning objectives",
-  "main": "index.js",
-  "scripts": {
-    "test": "grunt test"
+  "main": "server.js",
+  "engines": {
+    "node": "0.10.32",
+    "npm": "1.4.28"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,13 @@
   },
   "homepage": "https://github.com/codefellows/PGP-Web-App",
   "dependencies": {
-    "bcryptjs": "^2.0.2",
     "body-parser": "^1.6.3",
     "express": "^4.7.4",
-    "jwt-simple": "^0.2.0",
     "mongoose": "^3.8.14",
     "bcryptjs": "latest",
-    "jwt-simple": "latest"
+    "jwt-simple": "latest",
+    "grunt": "latest",
+    "grunt-cli": "latest"
   },
   "devDependencies": {
     "angular": "^1.2.23",
